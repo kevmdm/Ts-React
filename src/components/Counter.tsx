@@ -17,7 +17,7 @@ export const Counter = () => {
       <button className="btn btn-outline-primary mt-2" onClick={()=>incrementar(2)}>
         +2
       </button>
-      <button className="btn btn-outline-primary mt-2" onClick={()=>setCounter(0)}>
+      <button className="btn btn-outline-danger mt-2" onClick={()=>setCounter(0)}>
         Reset
       </button>
     </div>
